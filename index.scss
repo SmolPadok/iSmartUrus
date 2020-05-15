@@ -1,0 +1,147 @@
+$headerFont: jost;
+
+$colorPrimary: #273796;
+$colorAccent: #026bb6;
+
+@import "bootstrap/scss/bootstrap";
+
+@font-face{
+    font-family: 'jost';
+    src: url(fonts/jost/static/Jost-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'jost';
+    src: url(fonts/jost/static/Jost-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@media (min-width: 768px){
+    #home-jumboDesc::before{
+        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
+    }
+}
+
+@media (max-width: 767.98px){
+    #home-jumboDesc::before{
+        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
+    }
+}
+
+h1, h2, h3, h4, h5, h6, .jumbotronHeader{
+    font-family: $headerFont;
+    font-weight: 700;
+}
+.navbar-brand{
+    font-family: $headerFont;
+    font-weight: 700;
+    font-size: 28px;
+}
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.nav-item{
+    font-family: $headerFont;
+    font-weight: 400;
+    margin-right: 10px;
+}
+#home-jumbotron{
+    padding: 175px;
+    margin: 15px;
+    background-image:url(img/office.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: $colorPrimary;
+    h1, p{
+        color: white;
+    }
+    h1{
+        font-size: 56px;
+    }
+}
+#home-contactJumbotron{
+    padding: 150px;
+    margin: 15px;
+    background-image:url(img/hangar.jpg);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorPrimary;
+    h1, p{
+        color: white;
+    }
+    h1{
+        font-size: 56px;
+    }
+}
+#tech-column{
+    background-image:url(img/airport-tech.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorAccent;
+    color: white;
+}
+#service-column{
+    background-image:url(img/engineer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorAccent;
+    color: white;
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: $colorAccent;
+}
+.home-container{
+    margin-bottom: 15px;
+    padding: 100px;
+    text-align: center;
+}
+.carousel-container{
+    text-align: center;
+}
+.home-carousel{
+    padding-bottom: 50px;
+    .carousel-item{
+        text-align: center;
+        h1{
+            font-size: 56px;
+        }
+    }
+}
+.home-partners{
+    text-align: center;
+}
+.partner-img{
+    margin: 20px;
+    width: auto;
+    height: 70px;
+}
+p, a, small{
+    font-family: $headerFont;
+    font-weight: 400;
+}
+.top-50{
+    margin-top: 50px;
+}
+.footer-container{
+    padding: 50px;
+    text-align: center;
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
