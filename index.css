@@ -9925,10 +9925,26 @@ h3 {
   #home-jumboDesc::before {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
   }
+
+  .jumbotron h1 {
+    font-size: 56px;
+  }
+
+  .home-carousel .carousel-item h1 {
+    font-size: 56px;
+  }
 }
 @media (max-width: 767.98px) {
   #home-jumboDesc::before {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
+  }
+
+  #home-jumbotron h1 {
+    font-size: 48px;
+  }
+
+  .home-carousel .carousel-item h1 {
+    font-size: 48px;
   }
 }
 h1, h2, h3, h4, h5, h6, .jumbotronHeader {
@@ -9954,39 +9970,32 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader {
   margin-right: 10px;
 }
 
-#home-jumbotron {
+.jumbotron {
   padding: 175px;
+  padding-left: 75px;
+  padding-right: 75px;
   margin: 15px;
+  background-color: #273796;
+}
+.jumbotron h1, .jumbotron p {
+  color: white;
+}
+
+#home-jumbotron {
   background-image: url(img/office.jpeg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
   background-attachment: fixed;
-  background-color: #273796;
-}
-#home-jumbotron h1, #home-jumbotron p {
-  color: white;
-}
-#home-jumbotron h1 {
-  font-size: 56px;
 }
 
 #home-contactJumbotron {
-  padding: 150px;
-  margin: 15px;
   background-image: url(img/hangar.jpg);
   background-position: 50% 40%;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  background-color: #273796;
-}
-#home-contactJumbotron h1, #home-contactJumbotron p {
-  color: white;
-}
-#home-contactJumbotron h1 {
-  font-size: 56px;
 }
 
 #tech-column {
@@ -10029,9 +10038,6 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader {
 }
 .home-carousel .carousel-item {
   text-align: center;
-}
-.home-carousel .carousel-item h1 {
-  font-size: 56px;
 }
 
 .home-partners {
