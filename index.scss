@@ -159,6 +159,15 @@ p, a, ol, ul, li, small{
     margin-right: 10px;
 }
 .big-header{
+    background-image: url(img/tower1.jpg);
+    background-position: 50% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorPrimary;
+    color: white;
     padding-top: 150px;
     padding-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
