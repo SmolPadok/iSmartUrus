@@ -9926,7 +9926,7 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
   }
 
-  .jumbotron h1 {
+  .jumbotron h1, .big-header h1 {
     font-size: 56px;
   }
 
@@ -9939,7 +9939,7 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
   }
 
-  #home-jumbotron h1 {
+  .jumbotron h1, .big-header h1 {
     font-size: 48px;
   }
 
@@ -10050,7 +10050,7 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader {
   height: 70px;
 }
 
-p, a, small {
+p, a, ol, ul, li, small {
   font-family: jost;
   font-weight: 400;
 }
@@ -10068,6 +10068,11 @@ p, a, small {
   height: 100px;
   width: 100px;
   margin-right: 10px;
+}
+
+.big-header {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 /*# sourceMappingURL=index.css.map */
