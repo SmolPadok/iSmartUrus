@@ -40,7 +40,7 @@ $colorAccent: #026bb6;
     #home-jumboDesc::before{
         content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
     }
-    .jumbotron, .about-header{
+    .jumbotron, .about-header, .service-header{
         h1{
             font-size: 48px;
         }
@@ -149,6 +149,9 @@ p, a, ol, ul, li, small{
 .top-50{
     margin-top: 50px;
 }
+.top-15{
+    margin-top: 15px;
+}
 .footer-container{
     padding: 50px;
     text-align: center;
@@ -174,5 +177,29 @@ p, a, ol, ul, li, small{
 }
 .service-header{
     background-position: bottom;
-    background-image: url(img/hilux.jpg);
+    background-image: url(img/hilux-crop.jpg);
+}
+#service-engineer, #service-training, #service-products{
+    background-color: $colorAccent;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    color: white;
+    li{
+        margin-top: 15px;
+    }
+}
+#service-engineer{
+    background-image: url(img/engineer2.jpg);
+}
+#service-training{
+    background-image: url(img/training.png);
+}
+#service-products{
+    background-image: url(img/home.jpg);
 }
