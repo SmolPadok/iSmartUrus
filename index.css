@@ -9926,7 +9926,7 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
   }
 
-  .jumbotron h1, .about-header h1, .service-header h1 {
+  .jumbotron h1, .about-header h1, .service-header h1, .technology-header h1 {
     font-size: 56px;
   }
 
@@ -9939,7 +9939,7 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
   }
 
-  .jumbotron h1, .about-header h1, .service-header h1 {
+  .jumbotron h1, .about-header h1, .service-header h1, .technology-header h1 {
     font-size: 48px;
   }
 
@@ -10074,7 +10074,7 @@ p, a, ol, ul, li, small {
   margin-right: 10px;
 }
 
-.about-header, .service-header {
+.about-header, .service-header, .technology-header {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -10093,6 +10093,11 @@ p, a, ol, ul, li, small {
 .service-header {
   background-position: bottom;
   background-image: url(img/hilux-crop.jpg);
+}
+
+.technology-header {
+  background-position: bottom;
+  background-image: url(img/tower3.jpg);
 }
 
 #service-engineer, #service-training, #service-products {
@@ -10121,6 +10126,10 @@ p, a, ol, ul, li, small {
 
 #service-products {
   background-image: url(img/home.jpg);
+}
+
+.spaced-list li {
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
