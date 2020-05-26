@@ -22,7 +22,7 @@ $colorAccent: #026bb6;
     #home-jumboDesc::before{
         content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
     }
-    .jumbotron, .about-header, .service-header, .technology-header, .partner-header{
+    .jumbotron, .about-header, .service-header, .technology-header, .partner-header, .contact-header{
         h1{
             font-size: 56px;
         }
@@ -40,7 +40,7 @@ $colorAccent: #026bb6;
     #home-jumboDesc::before{
         content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
     }
-    .jumbotron, .about-header, .service-header, .technology-header, .partner-header{
+    .jumbotron, .about-header, .service-header, .technology-header, .partner-header .contact-header{
         h1{
             font-size: 48px;
         }
@@ -161,7 +161,7 @@ p, a, ol, ul, li, small{
     width: 100px;
     margin-right: 10px;
 }
-.about-header, .service-header, .technology-header, .partner-header{
+.about-header, .service-header, .technology-header, .partner-header, .contact-header{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -186,6 +186,10 @@ p, a, ol, ul, li, small{
 .partner-header{
     background-position: bottom;
     background-image: url(img/corporate-deal.jpg);
+}
+.contact-header{
+    background-position: center;
+    background-image: url(img/engineer2.jpg);
 }
 .partner-grid{
     div{
