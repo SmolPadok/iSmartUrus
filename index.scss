@@ -35,6 +35,11 @@ $colorAccent: #026bb6;
             }
         }
     }
+    .partner-grid{
+        p{
+            display: inline;
+        }
+    }
 }
 
 @media (max-width: 767.98px){
@@ -52,6 +57,11 @@ $colorAccent: #026bb6;
             h1{
                 font-size: 48px;
             }
+        }
+    }
+    .partner-grid{
+        p{
+            display: none;
         }
     }
 }
@@ -203,6 +213,9 @@ p, a, ol, ul, li, small{
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-color: white;
+    }
+    .col{
+        border-color: lightgray;
     }
 }
 #service-engineer, #service-training, #service-products{

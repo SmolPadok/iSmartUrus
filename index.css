@@ -9936,6 +9936,10 @@ h3 {
   .home-carousel .carousel-item h1 {
     font-size: 56px;
   }
+
+  .partner-grid p {
+    display: inline;
+  }
 }
 @media (max-width: 767.98px) {
   #home-jumboDesc::before {
@@ -9951,6 +9955,10 @@ h3 {
 
   .home-carousel .carousel-item h1 {
     font-size: 48px;
+  }
+
+  .partner-grid p {
+    display: none;
   }
 }
 h1, h2, h3, h4, h5, h6, .jumbotronHeader {
@@ -10125,6 +10133,9 @@ p, a, ol, ul, li, small {
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-color: white;
+}
+.partner-grid .col {
+  border-color: lightgray;
 }
 
 #service-engineer, #service-training, #service-products {
