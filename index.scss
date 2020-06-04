@@ -35,11 +35,6 @@ $colorAccent: #026bb6;
             }
         }
     }
-    .partner-grid{
-        p{
-            display: inline;
-        }
-    }
 }
 
 @media (max-width: 767.98px){
@@ -57,11 +52,6 @@ $colorAccent: #026bb6;
             h1{
                 font-size: 48px;
             }
-        }
-    }
-    .partner-grid{
-        p{
-            display: none;
         }
     }
 }
