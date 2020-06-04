@@ -9926,6 +9926,9 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
   }
 
+  .jumbotron, .about-header, .service-header, .technology-header, .partner-header, .contact-header {
+    text-align: left;
+  }
   .jumbotron h1, .about-header h1, .service-header h1, .technology-header h1, .partner-header h1, .contact-header h1 {
     font-size: 56px;
   }
@@ -9939,6 +9942,9 @@ h3 {
     content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
   }
 
+  .jumbotron, .about-header, .service-header, .technology-header, .partner-header .contact-header {
+    text-align: center;
+  }
   .jumbotron h1, .about-header h1, .service-header h1, .technology-header h1, .partner-header .contact-header h1 {
     font-size: 48px;
   }
@@ -9972,8 +9978,8 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader {
 
 .jumbotron {
   padding: 175px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin: 15px;
   background-color: #273796;
 }
