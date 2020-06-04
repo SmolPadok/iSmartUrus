@@ -206,15 +206,8 @@ p, a, ol, ul, li, small{
     background-image: url(img/engineer2.jpg);
 }
 .partner-grid{
-    div{
-        margin: 15px;
-        background-position: center;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-repeat: no-repeat;
-        background-color: white;
-    }
     .col{
+        margin-top: 50px;
         border-color: lightgray;
     }
 }
