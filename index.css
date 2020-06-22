@@ -10123,6 +10123,22 @@ p, a, ol, ul, li, small {
   border-color: lightgray;
 }
 
+.service-element {
+  margin: 10px;
+}
+.service-element img {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  color: #026bb6;
+  mix-blend-mode: multiply;
+  border-radius: 4px;
+}
+
+.service-list li {
+  margin-top: 15px;
+}
+
 #service-engineer, #service-training, #service-products {
   background-color: #026bb6;
   background-blend-mode: multiply;

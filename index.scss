@@ -201,6 +201,22 @@ p, a, ol, ul, li, small{
         border-color: lightgray;
     }
 }
+.service-element{
+    margin: 10px;
+    img{
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+        color: $colorAccent;
+        mix-blend-mode: multiply;
+        border-radius: 4px;
+    }
+}
+.service-list{
+    li{
+        margin-top: 15px;
+    }
+}
 #service-engineer, #service-training, #service-products{
     background-color: $colorAccent;
     background-blend-mode: multiply;
