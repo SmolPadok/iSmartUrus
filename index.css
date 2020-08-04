@@ -9933,8 +9933,16 @@ h3 {
     font-size: 56px;
   }
 
-  .home-carousel .carousel-item h1 {
+  .home-carousel-provide .carousel-item h1 {
     font-size: 56px;
+  }
+
+  .home-carousel-testimonial .carousel-item p {
+    font-size: 28px;
+  }
+
+  .partner-row {
+    text-align: left;
   }
 }
 @media (max-width: 767.98px) {
@@ -9949,8 +9957,16 @@ h3 {
     font-size: 48px;
   }
 
-  .home-carousel .carousel-item h1 {
+  .home-carousel-provide .carousel-item h1 {
     font-size: 48px;
+  }
+
+  .home-carousel-testimonial .carousel-item p {
+    font-size: 18px;
+  }
+
+  .partner-row {
+    text-align: center;
   }
 }
 h1, h2, h3, h4, h5, h6, .jumbotronHeader {
@@ -10041,10 +10057,10 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader {
   text-align: center;
 }
 
-.home-carousel {
+.home-carousel-provide {
   padding-bottom: 50px;
 }
-.home-carousel .carousel-item {
+.home-carousel-provide .carousel-item {
   text-align: center;
 }
 
@@ -10169,6 +10185,23 @@ p, a, ol, ul, li, small {
 
 .spaced-list li {
   margin-top: 15px;
+}
+
+.partner-card {
+  margin: 7px;
+}
+
+.home-carousel-testimonial {
+  padding: 50px;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
 }
 
 /*# sourceMappingURL=index.css.map */

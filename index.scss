@@ -28,12 +28,22 @@ $colorAccent: #026bb6;
             font-size: 56px;
         }
     }
-    .home-carousel{
+    .home-carousel-provide{
         .carousel-item{
             h1{
                 font-size: 56px;
             }
         }
+    }
+    .home-carousel-testimonial{
+        .carousel-item{
+            p{
+                font-size: 28px;
+            }
+        }
+    }
+    .partner-row{
+        text-align: left;
     }
 }
 
@@ -47,12 +57,22 @@ $colorAccent: #026bb6;
             font-size: 48px;
         }
     }
-    .home-carousel{
+    .home-carousel-provide{
         .carousel-item{
             h1{
                 font-size: 48px;
             }
         }
+    }
+    .home-carousel-testimonial{
+        .carousel-item{
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .partner-row{
+        text-align: center;
     }
 }
 
@@ -132,12 +152,13 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader{
 .carousel-container{
     text-align: center;
 }
-.home-carousel{
+.home-carousel-provide{
     padding-bottom: 50px;
     .carousel-item{
         text-align: center;
     }
 }
+
 .home-partners{
     text-align: center;
 }
@@ -245,4 +266,19 @@ p, a, ol, ul, li, small{
     li{
         margin-top: 15px;
     }
+}
+.partner-card{
+    margin: 7px;
+}
+.home-carousel-testimonial{
+    padding: 50px;
+}
+.carousel-indicators{
+    li{
+        background-color: black;
+    }
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
 }
