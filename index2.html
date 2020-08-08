@@ -7,7 +7,11 @@
         <link rel="stylesheet" href="index2.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <!--Transition Script, uncomment after developing!-->
+      <!--<script>
+        document.body.className = 'fade';
+      </script>-->
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="img/logo.png">iSmartUrus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,26 +28,132 @@
         </div>
       </nav>
       <div class="fluid-container">
-        <div class="jumbotron home-header">
+        <div class="jumbotron home-bigsection" id="home-header">
           <h1>We are iSmartUrus.</h1>
           <p class="lead">Tailor-made solutions for Airport Management and Smart City Technologies</p>
         </div>
       </div>
-      <div class="container home-section">
-        <div class="row">
-          <div class="col-md-7 div-center">
-            <h1>Delivering Airport & Smart City Solutions. <span class="text-muted">We got what it takes.</span></h1>
-            <p class="lead">iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.</p>
-            <button type="button" class="btn btn-outline-primary btn-lg">About Us</button>
-          </div>
-          <div class="col-md-5">
-            <figure>
-              <img class="home-section-img1 rounded" src="img/office-location.png">
-              <figcaption class="figure-caption text-center">iSmartUrus Office</figcaption>
-          </figure>
+      <div class="fluid-container home-section" id="home-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 div-center">
+              <h1>Delivering Airport & Smart City Solutions. <span class="text-muted">We got what it takes.</span></h1>
+              <p class="lead">iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.</p>
+              <button type="button" class="btn btn-outline-primary btn-lg">About Us</button>
+            </div>
+            <div class="col-md-5">
+              <figure>
+                <img class="home-section-img rounded" src="img/office-location.png">
+                <figcaption class="figure-caption text-center">iSmartUrus Office</figcaption>
+            </figure>
+            </div>
           </div>
         </div>
       </div>
+      <div class="fluid-container">
+        <hr>
+      </div>
+      <div class="fluid-container home-section" id="home-services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 order-md-2 div-center">
+              <h1>A wide range of engineering services. <span class="text-muted">You'll be spoilt for choice.</span></h1>
+              <p class="lead">iSmartUrus brings you appropriate solutions for your engineering needs through an array of specialised services and products. We believe that smart use of technology is the key towards effective processes and management.</p>
+              <div class="row">
+                <button type="button" class="btn btn-outline-primary btn-lg">Our Services</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg">Our Products</button>
+              </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <figure>
+              <img class="home-section-img rounded" src="img/products/engineering2-2.png">
+              <figcaption class="figure-caption text-center">Our engineers in action</figcaption>
+          </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fluid-container home-section" id="home-testimonial">
+        <div class="container">
+          <h1>Our clients say it better.</h1>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active carousel-testimonial">
+              <p>“iSmartUrus provide great services for construction and installation of FODDS in Kuala Lumpur International Airport, and we trust them during operation and maintenance contract.”</p>
+              <h4>Mr. Nobuhiko Shibagaki</h4>
+              <h5>Project Engineer Radar System, Hitachi Kokusai Electric Inc.</h5>
+            </div>
+            <div class="carousel-item carousel-testimonial">
+              <p>“iSmartUrus Sdn Bhd has delivered excellent work on designing and installation of OGPV unit for SBM in Malaysian Refinery Company Sdn Bhd (MRCSB) continuously support during the maintenance contract.”</p>
+              <h4>Ir M Zurix Mohamed</h4>
+              <h5>Principle Instrument Engineer, Petronas</h5>
+            </div>
+            <div class="carousel-item carousel-testimonial">
+              <p>“This company is reliable and trusted technology enabler for construction and installation  KLIA foreign object debris radar system. iSmartUrus has strong team and expertise to deliver high-end tasks.”</p>
+              <h4>Mr Abdul Wahab Mohd Yusof</h4>
+              <h5>Senior Manager, Malaysia Airport (Sepang) Sdn Bhd.</h5>
+            </div>
+            <div class="carousel-item carousel-testimonial">
+              <p>“To enhance our method of monitoring transmission line, iSmartUrus has provided us an excellent solution and innovative approach at a reasonable cost. Our team goal was achieved with iSmartUrus' innovative ideas.”</p>
+              <h4>Ir. Nor Hidayat Mohamed</h4>
+              <h5>Senior Engineer, Transmission Line Maintenance, Tenaga Nasional Berhad</h5>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="fluid-container home-section" id="home-partner">
+        <div class="container">
+          <h1>Partners</h1>
+          <div class="row div-center">
+            <div class="col-sm">
+              <img src="img/partners/petronas.png" class="partner-img">
+              <img src="img/partners/bomba.png" class="partner-img">
+              <img src="img/partners/tnb.png" class="partner-img">
+              <img src="img/partners/hitachi.png" class="partner-img">
+              <img src="img/partners/malaysia-airports.png" class="partner-img">
+              <img src="img/partners/zentrillion.png" class="partner-img">
+              <img src="img/partners/pbt.png" class="partner-img">
+              <img src="img/partners/vertikal.png" class="partner-img">
+              <img src="img/partners/ppnj.png" class="partner-img">
+              <img src="img/partners/digent.png" class="partner-img">
+              <img src="img/partners/gemavaria.png" class="partner-img">
+              <img src="img/partners/n32.png" class="partner-img">
+              <img src="img/partners/optimal.png" class="partner-img">
+              <img src="img/partners/sigtech.png" class="partner-img">
+              <img src="img/partners/putaran.png" class="partner-img">
+              <img src="img/partners/greentech.png" class="partner-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fluid-container" id="home-contact">
+      <div class="container home-bigsection">
+          <h1>Let's get started.</h1>
+          <p class="lead">Get in touch with us today for enquiries about our company and services.</p>
+          <button type="button" class="btn btn-outline-light btn-lg">Contact Us</button>
+        </div>
+      </div>
+      <!--Transition Script, uncomment after developing!-->
+      <!--<script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+          document.body.className = '';
+        });
+      </script>-->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

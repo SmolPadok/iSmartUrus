@@ -1,0 +1,217 @@
+
+@media (min-width: 1200px){//Extra Large, Big Desktop
+    .home-bigsection{
+        text-align: center;
+        padding: 150px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        h1{
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+    }
+    .home-section{
+        h1{
+            font-size: 48px;
+        }
+        .home-section-img{
+            margin: 0px;
+            height: 500px;
+        }
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #home-testimonial{
+        h1{
+            text-align: center;
+        }
+    }
+    .carousel-testimonial{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 300px;
+        padding-right: 300px;
+
+        p{
+            font-size: 28px;
+        }
+    }
+    .partner-img{
+        width: 150px;
+        margin: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){//Large, Desktop
+    .home-bigsection{
+        text-align: center;
+        padding: 150px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        h1{
+            font-size: 58px;
+            margin-bottom: 20px;
+        }
+    }
+    .home-section{
+        h1{
+            font-size: 48px;
+        }
+        .home-section-img{
+            margin: 0px;
+            height: 400px;
+        }
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #home-testimonial{
+        h1{
+            text-align: center;
+        }
+    }
+    .carousel-testimonial{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 250px;
+        padding-right: 250px;
+
+        p{
+            font-size: 24px;
+        }
+    }
+    .partner-img{
+        width: 150px;
+        margin: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ //Medium, Tablet, Laptop
+    .home-bigsection{
+        text-align: center;
+        padding: 150px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        h1{
+            font-size: 52px;
+        }
+    }
+    .home-section{
+        h1{
+            font-size: 48px;
+        }
+        .home-section-img{
+            margin: 0px;
+            width: 100%;
+        }
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #home-testimonial{
+        h1{
+            text-align: center;
+        }
+    }
+    .carousel-testimonial{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
+        p{
+            font-size: 20px;
+        }
+    }
+    .partner-img{
+        width: 150px;
+        margin: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){ //Small, Landscape Mobile
+    .home-bigsection{
+        text-align: center;
+        padding: 20px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        h1{
+            font-size: 48px;
+        }
+    }
+    .home-section{
+        h1{
+            font-size: 42px;
+        }
+        .home-section-img{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #home-testimonial{
+        h1{
+            text-align: left;
+        }
+    }
+    .carousel-testimonial{
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .partner-img{
+        width: 150px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 575.98px){ //Extra Small, Portrait Mobile
+
+    .home-bigsection{
+        text-align: left;
+        padding: 20px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        h1{
+            font-size: 48px;
+        }
+    }
+    .home-section{
+        h1{
+            font-size: 42px;
+        }
+        .home-section-img{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #home-testimonial{
+        h1{
+            text-align: left;
+        }
+    }
+    .carousel-testimonial{
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        p{
+            font-size: 16px;
+        }
+    }
+    .partner-img{
+        width: 100px;
+        margin: 15px;
+    }
+}
