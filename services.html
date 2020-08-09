@@ -5,9 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="img/logo-favicon.png" type="image/png" sizes="30x30">
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="img/logo.png">iSmartUrus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -17,28 +18,33 @@
             <a class="nav-item nav-link" href="index.html">Home</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
             <a class="nav-item nav-link active" href="services.html">Services <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="technologies.html">Technologies</a>
+            <a class="nav-item nav-link" href="products.html">Products</a>
+            <a class="nav-item nav-link" href="it-solutions.html">IT Solutions</a>
             <a class="nav-item nav-link" href="partners.html">Partners</a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
-      <div class="container-fluid rounded service-header">
-        <div class="container">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Services</li>
-            </ol>
-          </nav>
-          <h1 class="top-50">Stay ahead of the game.</h1>
+      <div class="compensate-nav">
+      </div>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index2.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Services</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="fluid-container">
+        <div class="jumbotron home-bigsection" id="service-header">
+          <h1>Our Services</h1>
           <p class="lead">Find out how you can get started with the latest engineering technology with our array of services.</p>
         </div>
       </div>
-      <div class="container top-50">
+      <div class="container">
         <div class="row">
           <div class="card col-lg service-element">
-            <img src="img/engineer2.jpg" class="card-img-top" alt="...">
+            <img src="img/products/engineering2.png" class="card-img-top">
             <div class="card-body">
               <h1 class="card-title">Engineering Services</h1>
               <ul class="top-15 service-list">
@@ -53,37 +59,29 @@
             </div>
           </div>
           <div class="card col-lg service-element">
-            <img src="img/training.png" class="card-img-top" alt="...">
+            <img src="img/products/training3-1.png" class="card-img-top">
             <div class="card-body">
               <h1 class="card-title">Training</h1>
               <ul class="top-15 service-list">
-                <li>GIS & Remote Sensing Executive Short Course</li>
+                <li>Industrial Design and 3D Printing</li>
                 <li>ABC Telecommunication Engineering</li>
                 <li>Basic Fiber to Home Training</li>
                 <li>Advance Fiber to Home Plan and Design</li>
-                <li>Fiber to Home Lab (Triple Play) Training</li>
                 <li>Graduate Re-Skilling Scheme</li>
                 <li>Metro-Ethernet Lab and Training</li>
                 <li>Drone Image Capture and Processing</li>
               </ul>
             </div>
           </div>
-          <div class="card col-lg service-element">
-            <img src="img/home.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h1 class="card-title">Products & Services</h1>
-              <ul class="top-15 service-list">
-                <li>Smart Home and Smart Office Devices</li>
-                <li>Fiber Inventory System</li>
-                <li>Data Backup and Storage</li>
-                <li>Desktop, Server and Peripherals</li>
-                <li>Network and Security (FTTH, Metro-E and DWDM)</li>
-                <li>Virtualization</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
+      <div class="fluid-container" id="home-contact">
+        <div class="container home-bigsection">
+            <h1>Your instinct is correct.</h1>
+            <p class="lead">Get in touch with us today for enquiries about our company and services.</p>
+            <a class="btn btn-outline-light btn-lg" href="contact.html" role="button">Contact Us</a>
+          </div>
+        </div>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -93,7 +91,7 @@
         <div class="row">
           <div class="col-sm">
             <img src="img/logo.png" class="footer-logo">
-            <p>iSmartUrus Sdn Bhd &copy 2020</p>
+            <p>iSmartUrus Sdn Bhd (1057063-A) &copy 2020</p>
           </div>
           <div class="col-sm">
             <ul class="list-unstyled text-small">

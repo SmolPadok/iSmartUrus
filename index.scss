@@ -1,9 +1,12 @@
 $headerFont: jost;
 
-$colorPrimary: #273796;
-$colorAccent: #026bb6;
+$theme-colors: (
+  "primary": #273796,
+  "secondary": #026bb6
+);
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
 
 @font-face{
     font-family: 'jost';
@@ -17,66 +20,21 @@ $colorAccent: #026bb6;
     font-style: bold;
     font-weight: 700;
 }
+@import "responsive-view";
 
-@media (min-width: 768px){
-    #home-jumboDesc::before{
-        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
-    }
-    .jumbotron, .about-header, .service-header, .technology-header, .partner-header, .contact-header{
-        text-align: left;
-        h1{
-            font-size: 56px;
-        }
-    }
-    .home-carousel-provide{
-        .carousel-item{
-            h1{
-                font-size: 56px;
-            }
-        }
-    }
-    .home-carousel-testimonial{
-        .carousel-item{
-            p{
-                font-size: 28px;
-            }
-        }
-    }
-    .partner-row{
-        text-align: left;
-    }
+body {
+    opacity: 1;
+    transition: 0.7s opacity;
 }
-
-@media (max-width: 767.98px){
-    #home-jumboDesc::before{
-        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
-    }
-    .jumbotron, .about-header, .service-header, .technology-header, .partner-header .contact-header{
-        text-align: center;
-        h1{
-            font-size: 48px;
-        }
-    }
-    .home-carousel-provide{
-        .carousel-item{
-            h1{
-                font-size: 48px;
-            }
-        }
-    }
-    .home-carousel-testimonial{
-        .carousel-item{
-            p{
-                font-size: 18px;
-            }
-        }
-    }
-    .partner-row{
-        text-align: center;
-    }
+  
+body.fade {
+    opacity: 0;
+    transition: none;
 }
-
-h1, h2, h3, h4, h5, h6, .jumbotronHeader{
+hr{
+    margin: 30px;
+}
+h1, h2, h3, h4, h5, h6{
     font-family: $headerFont;
     font-weight: 700;
 }
@@ -95,87 +53,102 @@ h1, h2, h3, h4, h5, h6, .jumbotronHeader{
     font-weight: 400;
     margin-right: 10px;
 }
-.jumbotron{
-    padding: 175px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 15px;
-    background-color: $colorPrimary;
+
+p, a, ol, ul, li, small, figcaption,.btn, .alert{
+    font-family: $headerFont;
+    font-weight: 400;
+}
+.compensate-nav{
+    margin-top: 75px;
+}
+.home-bigsection{
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
     h1, p{
         color: white;
     }
 }
-#home-jumbotron{
-    background-image:url(img/office.jpeg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-}
-#home-contactJumbotron{
-    background-image:url(img/hangar.jpg);
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-}
-#tech-column{
-    background-image:url(img/airport-tech.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: $colorAccent;
-    color: white;
-}
-#service-column{
-    background-image:url(img/engineer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: $colorAccent;
-    color: white;
-}
-.btn-primary{
-    background-color: transparent;
-    border-color: $colorAccent;
-}
-.home-container{
-    margin-bottom: 15px;
-    padding: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
-    text-align: center;
-}
-.carousel-container{
-    text-align: center;
-}
-.home-carousel-provide{
-    padding-bottom: 50px;
-    .carousel-item{
-        text-align: center;
+.home-section{
+    h1 {
+        margin-bottom: 20px;
+    }
+    .btn{
+        margin: 10px;
+        margin-left: 0px;
+    }
+    li{
+        margin-bottom: 25px;
     }
 }
-
-.home-partners{
+#home-header{
+    background-color: #7c7c7c;
+    background-image: url(img/tower1-crop.png);
+    background-position: center;
+}
+#product-header{
+    background-color: #7c7c7c;
+    background-image: url(img/products/training1-1.png);
+    background-position: center;
+}
+#it-solutions-header{
+    background-color: #7c7c7c;
+    background-image: url(img/products/engineering3.jpg);
+    background-position: center;
+}
+#service-header{
+    background-color: #7c7c7c;
+    background-image: url(img/products/training2.png);
+    background-position: center;
+}
+#about-header{
+    background-color: #7c7c7c;
+    background-image: url(img/office1.png);
+    background-position: top;
+}
+#partner-header{
+    background-color: #7c7c7c;
+    background-image: url(img/airport-tech1.png);
+    background-position: center;
+}
+#contact-header{
+    background-color: #7c7c7c;
+    background-image: url(img/tower3-1.png);
+    background-position: center;
+}
+#home-services, #home-testimonial, #home-contact{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home-testimonial{
+    background-position: center;
+    background-color: #5a5a5a;
+    background-blend-mode: multiply;
+    h1, h2, h3, h4, h5, h6, p{
+        color: white;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+}
+#home-contact{
     text-align: center;
+    background-color: #7c7c7c;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-image: url(img/hangar.jpg);
+    h1, h2, h3, h4, h5, h6, p{
+        color: white;
+    }
+    p{
+        margin-bottom: 50px;
+    }
 }
-.partner-img{
-    margin: 20px;
-    width: auto;
-    height: 70px;
-}
-p, a, ol, ul, li, small{
-    font-family: $headerFont;
-    font-weight: 400;
-}
-.top-50{
-    margin-top: 50px;
-}
-.top-15{
-    margin-top: 15px;
+.div-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .footer-container{
     padding: 50px;
@@ -186,41 +159,29 @@ p, a, ol, ul, li, small{
     width: 100px;
     margin-right: 10px;
 }
-.about-header, .service-header, .technology-header, .partner-header, .contact-header{
+#about-carousel{
+    background-color: #5a5a5a;
+}
+.about-carousel-img{
+    background-position: center;
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
-    background-color: $colorPrimary;
-    background-attachment: fixed;
-    color: white;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
-.about-header{
-    background-position: bottom;
-    background-image: url(img/tower1.jpg);
+#about-carousel-img1{
+    background-image: url(img/airport-tech.jpg);
 }
-.service-header{
-    background-position: bottom;
-    background-image: url(img/hilux-crop.jpg);
+#about-carousel-img2{
+    background-image: url(img/engineer.jpg);
 }
-.technology-header{
-    background-position: bottom;
-    background-image: url(img/tower3.jpg);
+#about-carousel-img3{
+    background-image: url(img/tower2-1.png);
 }
-.partner-header{
-    background-position: bottom;
-    background-image: url(img/corporate-deal.jpg);
+#about-carousel-img4{
+    background-image: url(img/training.png);
 }
-.contact-header{
-    background-position: center;
-    background-image: url(img/engineer2.jpg);
-}
-.partner-grid{
-    .col{
-        margin-top: 50px;
-        border-color: lightgray;
-    }
+#about-carousel-img5{
+    background-image: url(img/tower3-1.png);
 }
 .service-element{
     margin: 10px;
@@ -228,7 +189,6 @@ p, a, ol, ul, li, small{
         height: 300px;
         width: auto;
         object-fit: cover;
-        color: $colorAccent;
         mix-blend-mode: multiply;
         border-radius: 4px;
     }
@@ -238,47 +198,13 @@ p, a, ol, ul, li, small{
         margin-top: 15px;
     }
 }
-#service-engineer, #service-training, #service-products{
-    background-color: $colorAccent;
-    background-blend-mode: multiply;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding: 20px;
-    color: white;
-    li{
-        margin-top: 15px;
-    }
-}
-#service-engineer{
-    background-image: url(img/engineer2.jpg);
-}
-#service-training{
-    background-image: url(img/training.png);
-}
-#service-products{
-    background-image: url(img/home.jpg);
-}
-.spaced-list{
-    li{
-        margin-top: 15px;
-    }
-}
 .partner-card{
     margin: 7px;
+    width: 100%;
 }
-.home-carousel-testimonial{
-    padding: 50px;
-}
-.carousel-indicators{
-    li{
-        background-color: black;
+.partner-grid{
+    .col{
+        margin-top: 50px;
+        border-color: lightgray;
     }
-}
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  filter: invert(1);
 }

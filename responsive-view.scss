@@ -16,7 +16,7 @@
         }
         .home-section-img{
             margin: 0px;
-            height: 500px;
+            width: 100%;
         }
         padding-top: 50px;
         padding-bottom: 50px;
@@ -41,6 +41,9 @@
         width: 150px;
         margin: 15px;
     }
+    .about-carousel-img{
+        height: 500px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){//Large, Desktop
@@ -60,7 +63,7 @@
         }
         .home-section-img{
             margin: 0px;
-            height: 400px;
+            width: 100%;
         }
         padding-top: 50px;
         padding-bottom: 50px;
@@ -84,6 +87,9 @@
     .partner-img{
         width: 150px;
         margin: 15px;
+    }
+    .about-carousel-img{
+        height: 400px;
     }
 }
 
@@ -127,6 +133,9 @@
         width: 150px;
         margin: 15px;
     }
+    .about-carousel-img{
+        height: 350px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){ //Small, Landscape Mobile
@@ -167,8 +176,11 @@
         }
     }
     .partner-img{
-        width: 150px;
+        width: 100px;
         margin: 15px;
+    }
+    .about-carousel-img{
+        height: 300px;
     }
 }
 
@@ -213,5 +225,8 @@
     .partner-img{
         width: 100px;
         margin: 15px;
+    }
+    .about-carousel-img{
+        height: 300px;
     }
 }

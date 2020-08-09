@@ -1,0 +1,284 @@
+$headerFont: jost;
+
+$colorPrimary: #273796;
+$colorAccent: #026bb6;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@font-face{
+    font-family: 'jost';
+    src: url(fonts/jost/static/Jost-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'jost';
+    src: url(fonts/jost/static/Jost-Bold.ttf);
+    font-style: bold;
+    font-weight: 700;
+}
+
+@media (min-width: 768px){
+    #home-jumboDesc::before{
+        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better through a powerful combination of customer knowledge, inspired thinking and attentive associates.";
+    }
+    .jumbotron, .about-header, .service-header, .technology-header, .partner-header, .contact-header{
+        text-align: left;
+        h1{
+            font-size: 56px;
+        }
+    }
+    .home-carousel-provide{
+        .carousel-item{
+            h1{
+                font-size: 56px;
+            }
+        }
+    }
+    .home-carousel-testimonial{
+        .carousel-item{
+            p{
+                font-size: 28px;
+            }
+        }
+    }
+    .partner-row{
+        text-align: left;
+    }
+}
+
+@media (max-width: 767.98px){
+    #home-jumboDesc::before{
+        content: "iSmartUrus delivers innovative technology and services with tailored solutions that make businesses better.";
+    }
+    .jumbotron, .about-header, .service-header, .technology-header, .partner-header .contact-header{
+        text-align: center;
+        h1{
+            font-size: 48px;
+        }
+    }
+    .home-carousel-provide{
+        .carousel-item{
+            h1{
+                font-size: 48px;
+            }
+        }
+    }
+    .home-carousel-testimonial{
+        .carousel-item{
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .partner-row{
+        text-align: center;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, .jumbotronHeader{
+    font-family: $headerFont;
+    font-weight: 700;
+}
+.navbar-brand{
+    font-family: $headerFont;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.nav-item{
+    font-family: $headerFont;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.jumbotron{
+    padding: 175px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 15px;
+    background-color: $colorPrimary;
+    h1, p{
+        color: white;
+    }
+}
+#home-jumbotron{
+    background-image:url(img/office.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+#home-contactJumbotron{
+    background-image:url(img/hangar.jpg);
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+#tech-column{
+    background-image:url(img/airport-tech.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorAccent;
+    color: white;
+}
+#service-column{
+    background-image:url(img/engineer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorAccent;
+    color: white;
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: $colorAccent;
+}
+.home-container{
+    margin-bottom: 15px;
+    padding: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.carousel-container{
+    text-align: center;
+}
+.home-carousel-provide{
+    padding-bottom: 50px;
+    .carousel-item{
+        text-align: center;
+    }
+}
+
+.home-partners{
+    text-align: center;
+}
+.partner-img{
+    margin: 20px;
+    width: auto;
+    height: 70px;
+}
+p, a, ol, ul, li, small{
+    font-family: $headerFont;
+    font-weight: 400;
+}
+.top-50{
+    margin-top: 50px;
+}
+.top-15{
+    margin-top: 15px;
+}
+.footer-container{
+    padding: 50px;
+    text-align: center;
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+.about-header, .service-header, .technology-header, .partner-header, .contact-header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $colorPrimary;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.about-header{
+    background-position: bottom;
+    background-image: url(img/tower1.jpg);
+}
+.service-header{
+    background-position: bottom;
+    background-image: url(img/hilux-crop.jpg);
+}
+.technology-header{
+    background-position: bottom;
+    background-image: url(img/tower3.jpg);
+}
+.partner-header{
+    background-position: bottom;
+    background-image: url(img/corporate-deal.jpg);
+}
+.contact-header{
+    background-position: center;
+    background-image: url(img/engineer2.jpg);
+}
+.partner-grid{
+    .col{
+        margin-top: 50px;
+        border-color: lightgray;
+    }
+}
+.service-element{
+    margin: 10px;
+    img{
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+        color: $colorAccent;
+        mix-blend-mode: multiply;
+        border-radius: 4px;
+    }
+}
+.service-list{
+    li{
+        margin-top: 15px;
+    }
+}
+#service-engineer, #service-training, #service-products{
+    background-color: $colorAccent;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    color: white;
+    li{
+        margin-top: 15px;
+    }
+}
+#service-engineer{
+    background-image: url(img/engineer2.jpg);
+}
+#service-training{
+    background-image: url(img/training.png);
+}
+#service-products{
+    background-image: url(img/home.jpg);
+}
+.spaced-list{
+    li{
+        margin-top: 15px;
+    }
+}
+.partner-card{
+    margin: 7px;
+}
+.home-carousel-testimonial{
+    padding: 50px;
+}
+.carousel-indicators{
+    li{
+        background-color: black;
+    }
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}

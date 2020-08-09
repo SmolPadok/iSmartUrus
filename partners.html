@@ -5,9 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="img/logo-favicon.png" type="image/png" sizes="30x30">
     </head>
     <body>
-        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="img/logo.png">iSmartUrus</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -17,31 +18,53 @@
             <a class="nav-item nav-link" href="index.html">Home</a>
             <a class="nav-item nav-link" href="about.html">About Us</a>
             <a class="nav-item nav-link" href="services.html">Services</a>
-            <a class="nav-item nav-link" href="technologies.html">Technologies</a>
+            <a class="nav-item nav-link" href="products.html">Products</a>
+            <a class="nav-item nav-link" href="it-solutions.html">IT Solutions</a>
             <a class="nav-item nav-link active" href="partners.html">Partners <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
-      <div class="container-fluid rounded partner-header">
-        <div class="container">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Partners</li>
-            </ol>
-          </nav>
-          <h1 class="top-50">Friends in all altitudes.</h1>
+      <div class="compensate-nav">
+      </div>
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Partners</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="fluid-container">
+        <div class="jumbotron home-bigsection" id="partner-header">
+          <h1>Our Partners</h1>
           <p class="lead">From world-class corporations to potential startups, iSmartUrus empowers all tech companies and clients to do more.</p>
         </div>
       </div>
-      <div class="container partner-grid top-50">
-        <h1>Our Clients</h1>
+      <div class="container partner-grid">
         <div class="row partner-row">
           <div class="card partner-card" style="width: 18rem;">
             <div class="card-body">
               <h2 class="card-title">Hitachi Kokusai Electric Inc</h2>
               <p class="card-text">Project Management Company for Linear Cell Radar Foreign Object Debris Detection System Field Trial at Kuala Lumpur International Airport</p>
+            </div>
+          </div>
+          <div class="card partner-card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title">Celco Co. Ltd, Japan</h2>
+              <p class="card-text">Telecommunication System and Network Solution</p>
+            </div>
+          </div>
+          <div class="card partner-card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title">Link Laboratory Inc, Japan. </h2>
+              <p class="card-text">Radar installation and configuration</p>
+            </div>
+          </div>
+          <div class="card partner-card" style="width: 18rem;">
+            <div class="card-body">
+              <h2 class="card-title">Melaka Refinery Company Sdn Bhd </h2>
+              <p class="card-text">Engineering, Procurement, Installation And Commissioning Of Off-Grid PV For Navigation Aids Facilities For Single Buoy Mooring (SBM) For Petronas Refinery Plant Sungai Udang, Melaka.</p>
             </div>
           </div>
           <div class="card partner-card" style="width: 18rem;">
@@ -148,6 +171,13 @@
           </div>
         </div>
       </div>
+      <div class="fluid-container" id="home-contact">
+        <div class="container home-bigsection">
+            <h1>The right choice.</h1>
+            <p class="lead">Get in touch with us today for enquiries about our company and services.</p>
+            <a class="btn btn-outline-light btn-lg" href="contact.html" role="button">Contact Us</a>
+        </div>
+      </div>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -157,14 +187,15 @@
         <div class="row">
           <div class="col-sm">
             <img src="img/logo.png" class="footer-logo">
-            <p>iSmartUrus Sdn Bhd &copy 2020</p>
+            <p>iSmartUrus Sdn Bhd (1057063-A) &copy 2020</p>
           </div>
           <div class="col-sm">
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="index.html">Home</a></li>
               <li><a class="text-muted" href="about.html">About Us</a></li>
               <li><a class="text-muted" href="services.html">Services</a></li>
-              <li><a class="text-muted" href="technologies.html">Technologies</a></li>
+              <li><a class="text-muted" href="products.html">Products</a></li>
+              <li><a class="text-muted" href="it-solutions.html">IT Solutions</a></li>
               <li><a class="text-muted" href="partners.html">Partners</a></li>
               <li><a class="text-muted" href="contact.html">Contact</a></li>
             </ul>
